@@ -1,0 +1,28 @@
+# Week-2-Day-1
+Second week of internal assessment
+Python lists and Tuples
+# Create a list of numbers
+numbers = [48, 6, 78, 50, 77, 2]
+
+# Display the list
+print("Original List:", numbers)
+
+# Find the largest number in the list
+largest = max(numbers)
+print("Largest Number:", largest)
+
+# Find the smallest number in the list
+smallest = min(numbers)
+print("Smallest Number:", smallest)
+
+# Sort the list in ascending order
+numbers_ascending = sorted(numbers)
+print("List in Ascending Order:", numbers_ascending)
+
+# Sort the list in descending order
+numbers_descending = sorted(numbers, reverse=True)
+print("List in Descending Order:", numbers_descending)
+
+# Convert list to tuple
+numbers_tuple = tuple(numbers)
+print("Converted Tuple:", numbers_tuple)
